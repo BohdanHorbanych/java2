@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
-    private static List<Student> students = new ArrayList<>(); // List to keep track of all students
+    private static final List<Student> students = new ArrayList<>(); // List to keep track of all students
     private String name;
     private int rating;
 
