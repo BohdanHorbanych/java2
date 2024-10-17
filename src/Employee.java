@@ -37,4 +37,3 @@ public abstract class Employee implements Payable {
         return "employee_ID: " + employeeId + ", Name: " + name + ", average_monthly_salary: " + String.format("%.2f", averageMonthlySalary);
     }
 }
-
