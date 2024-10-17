@@ -1,36 +1,39 @@
-public class Employee {
-    // TODO fix class declaration and declare variables here
+public abstract class Employee implements Payable {
+    private String employeeId;
+    private String name;
+    private double averageMonthlySalary;
 
     public Employee(String employeeId, String name) {
-        // TODO fill in code here
+        this.employeeId = employeeId;
+        this.name = name;
     }
 
     public String getEmployeeId() {
-        // TODO fill in code here and replace the return statement
-        return "";
+        return employeeId;
     }
 
     public void setEmployeeId(String employeeId) {
-        // TODO fill in code here
+        this.employeeId = employeeId;
     }
 
     public String getName() {
-        // TODO fill in code here and replace the return statement
-        return "";
+        return name;
     }
 
     public void setName(String name) {
-        // TODO fill in code here
+        this.name = name;
     }
 
     public double getAverageMonthlySalary() {
-        // TODO fill in code here and replace the return statement
-        return 0;
+        return averageMonthlySalary;
+    }
+
+    protected void setAverageMonthlySalary(double salary) {
+        this.averageMonthlySalary = salary;
     }
 
     @Override
     public String toString() {
-        // TODO fill in code here and replace the return statement, be sure to format double value
-        return "";
+        return "employee_ID: " + employeeId + ", Name: " + name + ", average_monthly_salary: " + String.format("%.2f", averageMonthlySalary);
     }
 }

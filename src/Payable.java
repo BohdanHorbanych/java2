@@ -1,3 +1,3 @@
-interface Payable {
-    // TODO declare method here
+public interface Payable {
+    double calculatePay();
 }
