@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12f4f598-75e8-4b2e-bcd9-b77336e18189" name="Changes" comment=".." />
+    <list default="true" id="12f4f598-75e8-4b2e-bcd9-b77336e18189" name="Changes" comment="..">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,13 +49,15 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Application.Student.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Maven.Unnamed.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.StudentTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.StudentTest.executor&quot;: &quot;Coverage&quot;,
     &quot;TestNG.StudentTest.testGetAvgRating.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Unnamed.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;java-basics-oop-p2&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -61,51 +65,67 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.StudentTest">
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Student" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="TestNG.Unnamed">
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../java2/src" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
-    <configuration name="StudentTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java2" />
+    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
+      <module name="java3" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../java2/src" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.testGetAvgRating" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StudentTest" />
-      <option name="METHOD_NAME" value="testGetAvgRating" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.StudentTest" />
-        <item itemvalue="TestNG.StudentTest.testGetAvgRating" />
-        <item itemvalue="Application.Student" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Maven.Unnamed" />
+      <item itemvalue="TestNG.Unnamed" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -126,6 +146,8 @@
       <workItem from="1728551666980" duration="3194000" />
       <workItem from="1728558178923" duration="2294000" />
       <workItem from="1728675217274" duration="5663000" />
+      <workItem from="1729155774944" duration="240000" />
+      <workItem from="1729156021211" duration="1453000" />
     </task>
     <task id="LOCAL-00001" summary="add students">
       <option name="closed" value="true" />
@@ -168,7 +190,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/java-basics-oop-p1" />
+                        <option value="origin/java-basics-oop-p2" />
                       </list>
                     </value>
                   </entry>
@@ -184,5 +206,12 @@
     <MESSAGE value="add students" />
     <MESSAGE value=".." />
     <option name="LAST_COMMIT_MESSAGE" value=".." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java3$StudentTest.ic" NAME="StudentTest Coverage Results" MODIFIED="1729155940142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
