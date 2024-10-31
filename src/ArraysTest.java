@@ -20,14 +20,14 @@ public class ArraysTest {
                         new String[]{"some", "text", "."}
                 },
                 {
-                        new String[]{"apple", "banana", "cherry"},
-                        new String[]{"banana", "apple", "kiwi"},
+                        new String[]{"apple", "orange", "banana", "grape"},
+                        new String[]{"banana", "melon", "apple", "kiwi"},
                         new String[]{"apple", "banana"}
                 },
                 {
-                        new String[]{"blue", "green", "red"},
-                        new String[]{"green", "yellow", "blue"},
-                        new String[]{"green", "blue"}
+                        new String[]{"circle", "triangle", "square", "hexagon"},
+                        new String[]{"hexagon", "triangle", "octagon"},
+                        new String[]{"triangle", "hexagon"}
                 }
         };
     }
