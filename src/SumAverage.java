@@ -11,8 +11,12 @@ public class SumAverage {
      * @return sum of integers
      */
     public static int sum(int lowerBound, int upperBound) {
-        // TODO fill in code here using for loop and replace the return statement
-        return -1;
+        int total = 0;
+        // Sum integers from lowerBound to upperBound
+        for (int i = lowerBound; i <= upperBound; i++) {
+            total += i;
+        }
+        return total;
     }
 
     /**
@@ -22,8 +26,12 @@ public class SumAverage {
      * @return sum of integers
      */
     public static int sum(int[] numbers) {
-        // TODO fill in code here using for each loop and replace the return statement
-        return -1;
+        int total = 0;
+        // Sum integers using for-each loop
+        for (int number : numbers) {
+            total += number;
+        }
+        return total;
     }
 
     /**
@@ -34,8 +42,9 @@ public class SumAverage {
      * @return average of integers
      */
     public static double average(int lowerBound, int upperBound) {
-        // TODO fill in code here using while loop and replace the return statement
-        return -1;
+        int total = sum(lowerBound, upperBound);
+        int count = upperBound - lowerBound + 1;
+        return (double) total / count; // Calculate average
     }
 
     /**
@@ -45,7 +54,15 @@ public class SumAverage {
      * @return average of integers
      */
     public static double average(int[] numbers) {
-        // TODO fill in code here using do-while loop and replace the return statement
-        return -1;
+        int total = 0;
+        int count = 0;
+        // Calculate sum and count using do-while loop
+        int i = 0;
+        do {
+            total += numbers[i];
+            count++;
+            i++;
+        } while (i < numbers.length);
+        return count > 0 ? (double) total / count : 0; // Calculate average if count > 0
     }
 }
