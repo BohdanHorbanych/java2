@@ -19,8 +19,16 @@ public class StreamTaskTest {
                 {
                         new int[]{13, -2, 33, -4, 5},
                         20
+                },
+                // Additional test cases
+                {
+                        new int[]{0, 10, -10, 15},
+                        200
+                },
+                {
+                        new int[]{2, 4, 6, 8},
+                        120
                 }
-                // TODO add 2 more test data here
         };
     }
 
@@ -38,18 +46,26 @@ public class StreamTaskTest {
                 {
                         new int[]{130, -200, 330, -40, 50, 66},
                         new int[]{}
+                },
+                // Additional test cases
+                {
+                        new int[]{0, 1, -1, 15, 3},
+                        new int[]{-1, 1, 3, 15}
+                },
+                {
+                        new int[]{2, 4, 6, 8, 10},
+                        new int[]{}
                 }
-                // TODO add 2 more test data here
         };
     }
 
     @Test(dataProvider = "numbers")
     public void testSumSquareEven(int[] numbers, int expectedResult) {
-        assertEquals(StreamTask.getSumSquareEven(numbers), expectedResult, "Max value is incorrect");
+        assertEquals(StreamTask.getSumSquareEven(numbers), expectedResult, "Sum of square of even numbers is incorrect");
     }
 
     @Test(dataProvider = "arrays")
     public void getSortedOddsArray(int[] numbers, int[] expectedResult) {
-        assertEquals(StreamTask.getSortedOddsArray(numbers), expectedResult, "Array is incorrect");
+        assertEquals(StreamTask.getSortedOddsArray(numbers), expectedResult, "Sorted odd numbers array is incorrect");
     }
 }
